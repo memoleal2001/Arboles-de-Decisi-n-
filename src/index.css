@@ -1,0 +1,25 @@
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Inter", ui-sans-serif, system-ui, sans-serif;
+}
+
+@layer base {
+  body {
+    @apply bg-slate-50 text-slate-900;
+  }
+}
+
+.markdown-body {
+  @apply text-slate-700 leading-relaxed;
+}
+
+.markdown-body h1 { @apply text-3xl font-black mb-6 mt-8 text-slate-900 tracking-tight; }
+.markdown-body h2 { @apply text-2xl font-black mb-4 mt-6 text-slate-800 tracking-tight; }
+.markdown-body h3 { @apply text-xl font-bold mb-3 mt-4 text-slate-800; }
+.markdown-body p { @apply mb-4; }
+.markdown-body ul { @apply list-disc pl-6 mb-4 space-y-2; }
+.markdown-body ol { @apply list-decimal pl-6 mb-4 space-y-2; }
+.markdown-body strong { @apply font-bold text-slate-900; }
+.markdown-body blockquote { @apply border-l-4 border-indigo-500 pl-4 italic text-slate-600 my-6; }
+

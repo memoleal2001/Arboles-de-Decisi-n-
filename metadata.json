@@ -1,0 +1,6 @@
+{
+  "name": "ArbolIA",
+  "description": "Una plataforma integral de análisis de datos impulsada por IA que utiliza árboles de decisión para optimizar estrategias de negocio, planes de marketing y procesos de producción.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
